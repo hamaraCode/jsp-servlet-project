@@ -1,0 +1,30 @@
+<web-app>
+  <display-name>MyTestServlet</display-name>
+ 
+ <servlet>  
+    <servlet-name>com.anand.Login</servlet-name>  
+    <servlet-class>Login</servlet-class>  
+  </servlet>  
+  <servlet>  
+    <servlet-name>com.anand.Welcome</servlet-name>  
+    <servlet-class>Welcome</servlet-class>  
+  </servlet>  
+  
+  
+  <servlet-mapping>  
+    <servlet-name>Login</servlet-name>  
+    <url-pattern>/servlet1</url-pattern>  
+  </servlet-mapping>  
+  <servlet-mapping>  
+    <servlet-name>WelcomeServlet</servlet-name>  
+    <url-pattern>/servlet2</url-pattern>  
+  </servlet-mapping>  
+  
+  <welcome-file-list>  
+   <welcome-file>index.html</welcome-file>  
+  </welcome-file-list>  
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
